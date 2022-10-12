@@ -1,0 +1,10 @@
+@media screen and (min-width: 80em) {
+  .main-footer {
+    font-size: 1.25rem;
+  }
+}
+
+.main-footer {
+    font-size: 1rem;
+    font-weight: normal;
+}
