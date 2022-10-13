@@ -7,6 +7,7 @@ import {
   FaYoutubeSquare,
   FaInstagramSquare,
 } from "react-icons/fa";
+import { RiArrowDownSFill } from "react-icons/ri";
 
 export default function Footer() {
   return (
@@ -16,9 +17,11 @@ export default function Footer() {
         after:border-solid after:absolute after:left-0 after:right-0
         after:border-[#fff] main_footer"
       ></div>
+      {/* CONTAINER */}
       <div className="main_footer px-8vw">
         <div className="main_footer pt-8vw">
           <div className="main_footer after:table">
+            {/* INVISIBLE HEIGHT */}
             <div
               className="lg:w-full lg:float-left lg:pr-[0.625rem] xs:pb-4vw
             pb-8vw"
@@ -31,7 +34,7 @@ export default function Footer() {
               </h1>
             </div>
           </div>
-          <div className="main_footer after:table">
+          {/* <div className="main_footer after:table">
             <div
               className="main_footer pr-0 lg:w-[40%] lg:float-right lg:pr-[0.625rem]
               xs:pb-4vw pb-8vw"
@@ -166,8 +169,190 @@ export default function Footer() {
               </ul>{" "}
             </div>
           </div>
-          <div></div>
-          <div></div>
+          <div className="main_footer after:table">
+            <div
+              className="main_footer lg:w-[30%] lg:float-left lg:pr-[0.625rem] xs:pb-4vw
+            pb-8vw"
+            >
+              <h3 className="main_footer m-0 text-base font-bold">Community</h3>
+              <ul className="main_footer list-none m-0 p-0 font-normal block">
+                <li>
+                  <a
+                    className="main_footer no-underline cursor-pointer flex
+                  hover:bg-[#0000FF]/50"
+                  >
+                    Find Ableton User Groups{" "}
+                    <BiChevronRight className="self-center" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="main_footer no-underline cursor-pointer flex
+                  hover:bg-[#0000FF]/50"
+                  >
+                    Find Certified Training{" "}
+                    <BiChevronRight className="self-center" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="main_footer no-underline cursor-pointer flex
+                  hover:bg-[#0000FF]/50"
+                  >
+                    Become a Certified Trainer{" "}
+                    <BiChevronRight className="self-center" />
+                  </a>
+                </li>
+              </ul>{" "}
+            </div>
+            <div
+              className="main_footer lg:w-[30%] lg:float-left lg:pr-[0.625rem] xs:pb-4vw
+            pb-8vw"
+            >
+              <h3 className="main_footer m-0 text-base font-bold">
+                Distributors
+              </h3>
+              <ul className="main_footer list-none m-0 p-0 font-normal block">
+                <li>
+                  <a
+                    className="main_footer no-underline cursor-pointer flex
+                  hover:bg-[#0000FF]/50"
+                  >
+                    Find Distributors <BiChevronRight className="self-center" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="main_footer no-underline cursor-pointer flex
+                  hover:bg-[#0000FF]/50"
+                  >
+                    Try Push in-store <BiChevronRight className="self-center" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="main_footer lg:w-[40%] lg:float-left lg:pr-[0.625rem] xs:pb-4vw
+            pb-8vw"
+            >
+              <h3 className="main_footer m-0 text-base font-bold p-0 block">
+                Language and Location
+              </h3>
+              <div className="main_footer text-[0.875rem] mt-[0.75em]">
+                <div className="main_footer inline-block w-auto mr-0.5 max-w-[200px]">
+                  <div
+                    className="main_footer inline-block w-auto max-w-none relative
+                    after:absolute after:top-1 after:right-0 after:w-[30px] after:h-full
+                    after:content-['↓'] after:pointer-events-none"
+                  >
+                    <form className="main_footer block mt-0">
+                      <select
+                        name="language"
+                        className="appearance-none m-0 py-[0.35em]
+                      border-none bg-transparent font-bold w-[100%] select-none h-[1.875rem
+                      pl-[0.75em] pr-[50px] rounded-none cursor-pointer"
+                      >
+                        <option value="en">English</option>
+                        <option value="fr">Français</option>
+                        <option value="de">Deutsch</option>
+                        <option value="ja">日本語</option>
+                        <option value="zh-ch">简体中文</option>
+                      </select>
+                    </form>
+                  </div>
+                </div>
+                <div className="main_footer inline-block w-auto mr-0.5 max-w-[200px]">
+                  <div
+                    className="main_footer inline-block w-auto max-w-none relative
+                    after:absolute after:top-1 after:right-0 after:w-[30px] after:h-full
+                    after:content-['↓'] after:pointer-events-none"
+                  >
+                    <form className="main_footer block mt-0">
+                      <select
+                        name="country_code"
+                        className="appearance-none m-0 py-[0.35em]
+                      border-none bg-transparent font-bold w-[100%] select-none h-[1.875rem
+                      pl-[0.75em] pr-[50px] rounded-none cursor-pointer"
+                      >
+                        <option value>Please choose</option>
+                        <optgroup label="Common Countries">
+                          <option value="us">United States</option>
+                          <option value="uk">United Kingdom</option>
+                          <option value="fr">France</option>
+                          <option value="de">Germany</option>
+                          <option value="ca">Canada</option>
+                          <option value="jp">Japan</option>
+                          <option value="cn">China</option>
+                        </optgroup>
+                        <optgroup label="Common Countries">
+                          <option value="c1">Country-1</option>
+                          <option value="c2">Country-2</option>
+                          <option value="c3">Country-3</option>
+                          <option value="c4">Country-4</option>
+                        </optgroup>
+                      </select>
+                    </form>
+                  </div>
+                </div>{" "}
+              </div>
+            </div>
+          </div>
+          <div className="main_footer after:table">
+            <div
+              className="main_footer pr-0 pb-8vw lg:w-full lg:float-left lg:pr-[0.625rem]
+              xs:pb-4vw"
+            >
+              <div className="lg:mt-4 lg:w-auto inline-block align-middle">
+                <a
+                  className="no-underline lg:inline-block lg:mb-0 mr-[1em]
+                mb-[0.5rem] block text-[0.875rem] text-bold"
+                >
+                  Contact Us
+                </a>
+                <a
+                  className="no-underline lg:inline-block lg:mb-0 mr-[1em]
+                mb-[0.5rem] block text-[0.875rem] text-bold"
+                >
+                  Press Resources
+                </a>
+                <a
+                  className="no-underline lg:inline-block lg:mb-0 mr-[1em]
+                mb-[0.5rem] block text-[0.875rem] text-bold"
+                >
+                  Legal Info
+                </a>
+                <a
+                  className="no-underline lg:inline-block lg:mb-0 mr-[1em]
+                mb-[0.5rem] block text-[0.875rem] text-bold"
+                >
+                  Privacy Policy
+                </a>
+                <a
+                  className="no-underline lg:inline-block lg:mb-0 mr-[1em]
+                mb-[0.5rem] block text-[0.875rem] text-bold"
+                >
+                  Cookie Settings
+                </a>
+                <a
+                  className="no-underline lg:inline-block lg:mb-0 mr-[1em]
+                mb-[0.5rem] block text-[0.875rem] text-bold"
+                >
+                  Imprint
+                </a>
+              </div>
+              <div
+                className="lg:float-right lg:w-auto lg:ml-[3em] lg:mt-[1rem]
+              text-left mt-8vw w-full"
+              >
+                <span
+                  className="ml-0 mr-[1em] text-[0.875rem] text-bold
+                lg:float-right inline-block align-middle text-left"
+                >
+                  Made in Berlin
+                </span>
+              </div>
+            </div>
+          </div> */}
         </div>
       </div>
     </div>
