@@ -15,6 +15,7 @@ module.exports = {
       spacing: {
         "8vw": "8.33333vw",
         "4vw": "4.16667vw",
+        "66vw": "66.6667vw",
       },
       screens: {
         "xxs":"420px",
