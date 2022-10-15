@@ -25,13 +25,21 @@ export default function Home() {
         {/* MAIN PAGE */}
         <main>
           {/* HEADER IMG */}
-          <div className="mx-28 mb-28">
-            <Image src={MainImg} alt="Pexels Giovanni Garnica" />
+          <div
+            className="mx-8vw mb-8vw relative min-h-[100vh]
+            min-h-[100vh_-_120px]"
+          >
+            <Image
+              src={MainImg}
+              alt="header-img"
+              layout="fill"
+              objectFit="cover"
+            />
           </div>
 
           {/* TEXT-1 */}
           <AboutText>
-            <h1 className="mb-[21px] text-3xl">
+            <h1 className="first:mt-0 mb-[21px] text-3xl">
               We make <span className="text-[blue]">Live</span>,{" "}
               <span className="text-[blue]">Push</span> and{" "}
               <span className="text-[blue]">Link</span> — unique software and
@@ -65,7 +73,7 @@ export default function Home() {
 
           {/* TEXT-2 */}
           <AboutText>
-            <h1 className="mb-[21px] text-3xl">
+            <h1 className="first:mt-0 mb-[21px] text-3xl">
               Making music isn’t easy. It takes time, effort, and learning. But
               when you’re in the flow, it’s incredibly rewarding.
             </h1>
@@ -87,7 +95,7 @@ export default function Home() {
 
           {/* TEXT-3 */}
           <AboutText>
-            <h1 className="mb-[21px] text-3xl">
+            <h1 className="first:mt-0 mb-[21px] text-3xl">
               We are more than 350 people from 30 different countries divided
               between our headquarters in Berlin and our offices in Los Angeles
               and Tokyo.
@@ -125,7 +133,7 @@ export default function Home() {
 
           {/* TEXT-4 */}
           <AboutText>
-            <h1 className="mb-[21px] text-3xl">
+            <h1 className="first:mt-0 mb-[21px] text-3xl">
               We believe it takes focus to create truly outstanding instruments.
               We only work on a few products and we strive to make them great.
             </h1>
@@ -146,7 +154,7 @@ export default function Home() {
 
           {/* TEXT-5 */}
           <AboutText>
-            <h1 className="mb-[21px] mt-0 text-3xl">
+            <h1 className="first:mt-0 mb-[21px] mt-0 text-3xl">
               We’re passionate about what we do, but we’re equally passionate
               about improving who we are.
             </h1>
@@ -184,7 +192,7 @@ export default function Home() {
 
           {/* TEXT-6 */}
           <AboutText>
-            <h1 className="mb-[21px] text-3xl">
+            <h1 className="first:mt-0 mb-[21px] text-3xl">
               We want our employees to love it here. Since we’re looking for
               exceptional talent from around the world, we will do everything we
               can to make your transition as easy as possible.
