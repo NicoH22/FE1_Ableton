@@ -20,6 +20,7 @@ module.exports = {
       screens: {
         "xxs":"420px",
         "xs": "576px",
+        "mlg": "1124px",
       },
     },
     backgroundPosition: {

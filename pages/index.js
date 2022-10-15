@@ -39,14 +39,14 @@ export default function Home() {
 
           {/* TEXT-1 */}
           <AboutText>
-            <h1 className="first:mt-0 mb-[21px] text-3xl">
+            <h1 className="first:mt-0 mb-[0.7em] font-semibold mlg:text-3xl text-xl">
               We make <span className="text-[blue]">Live</span>,{" "}
               <span className="text-[blue]">Push</span> and{" "}
               <span className="text-[blue]">Link</span> — unique software and
               hardware for music creation and performance. With these products,
               our community of users creates amazing things.
             </h1>
-            <p className="text-[1.25rm]">
+            <p className="text-[1.25rem]">
               Ableton was founded in 1999 and released the first version of Live
               in 2001. Our products are used by a community of dedicated
               musicians, sound designers, and artists from across the world.
@@ -73,11 +73,11 @@ export default function Home() {
 
           {/* TEXT-2 */}
           <AboutText>
-            <h1 className="first:mt-0 mb-[21px] text-3xl">
+            <h1 className="first:mt-0 mb-[0.7em] font-semibold mlg:text-3xl text-xl">
               Making music isn’t easy. It takes time, effort, and learning. But
               when you’re in the flow, it’s incredibly rewarding.
             </h1>
-            <p className="text-[1.25rm]">
+            <p className="text-[1.25rem]">
               We feel the same way about making Ableton products. The driving
               force behind Ableton is our passion for what we make, and the
               people we make it for.
@@ -95,12 +95,12 @@ export default function Home() {
 
           {/* TEXT-3 */}
           <AboutText>
-            <h1 className="first:mt-0 mb-[21px] text-3xl">
+            <h1 className="first:mt-0 mb-[0.7em] font-semibold mlg:text-3xl text-xl">
               We are more than 350 people from 30 different countries divided
               between our headquarters in Berlin and our offices in Los Angeles
               and Tokyo.
             </h1>
-            <p className="text-[1.25rm]">
+            <p className="text-[1.25rem]">
               Most of us are active musicians, producers, and DJs, and many of
               us use Live and Push every day. We come from a wide range of
               cultural and professional backgrounds. Some of us have PhDs, some
@@ -133,11 +133,11 @@ export default function Home() {
 
           {/* TEXT-4 */}
           <AboutText>
-            <h1 className="first:mt-0 mb-[21px] text-3xl">
+            <h1 className="first:mt-0 mb-[0.7em] font-semibold mlg:text-3xl text-xl">
               We believe it takes focus to create truly outstanding instruments.
               We only work on a few products and we strive to make them great.
             </h1>
-            <p className="text-[1.25rm]">
+            <p className="text-[1.25rem]">
               Rather than having a one-size-fits-all process, we try to give our
               people what they need to work their magic and grow. We’ve learned
               that achieving the best results comes from building teams that are
@@ -154,16 +154,16 @@ export default function Home() {
 
           {/* TEXT-5 */}
           <AboutText>
-            <h1 className="first:mt-0 mb-[21px] mt-0 text-3xl">
+            <h1 className="first:mt-0 mb-[0.7em] font-semibold mlg:text-3xl text-xl">
               We’re passionate about what we do, but we’re equally passionate
               about improving who we are.
             </h1>
-            <p className="text-[1.25rm] mb-[1em]">
+            <p className="text-[1.25rem] mb-[1em]">
               We work hard to foster an environment where people can grow both
               personally and professionally, and we strive to create a wealth of
               opportunities to learn from and with each other.
             </p>
-            <p className="text-[1.25rm]">
+            <p className="text-[1.25rem]">
               Alongside an internal training program, employees are actively
               supported in acquiring new knowledge and skills, and coached on
               applying these in their daily work. In addition, staff-organized
@@ -192,12 +192,12 @@ export default function Home() {
 
           {/* TEXT-6 */}
           <AboutText>
-            <h1 className="first:mt-0 mb-[21px] text-3xl">
+            <h1 className="first:mt-0 mb-[0.7em] font-semibold mlg:text-3xl text-xl">
               We want our employees to love it here. Since we’re looking for
               exceptional talent from around the world, we will do everything we
               can to make your transition as easy as possible.
             </h1>
-            <p className="text-[1.25rm]">
+            <p className="text-[1.25rem]">
               If you&apos;re joining us in Berlin, we&apos;ll help with
               relocation and paperwork. We’ll even provide you with free German
               or English lessons. Plus, working in Germany means you can expect
