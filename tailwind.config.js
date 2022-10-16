@@ -18,9 +18,10 @@ module.exports = {
         "66vw": "66.6667vw",
       },
       screens: {
-        "xxs":"420px",
-        "xs": "576px",
-        "mlg": "1124px",
+        xxs: "420px",
+        xs: "576px",
+        mlg: "1124px",
+        maxmd: { max: "1023px" },
       },
     },
     backgroundPosition: {

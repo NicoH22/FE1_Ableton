@@ -34,7 +34,7 @@ export default function Footer() {
               </h1>
             </div>
           </div>
-          {/* <div className="main_footer after:table">
+          <div className="main_footer after:table">
             <div
               className="main_footer pr-0 lg:w-[40%] lg:float-right lg:pr-[0.625rem]
               xs:pb-4vw pb-8vw"
@@ -352,7 +352,7 @@ export default function Footer() {
                 </span>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
