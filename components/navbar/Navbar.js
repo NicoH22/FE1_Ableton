@@ -96,7 +96,7 @@ export default class Navbar extends Component {
                 {/* RIGHT SIDE NAVBAR */}
                 <li
                   className="xl:mr-[0.3125rem] xl:text-xl leading-normal inline-block
-                align-middle lg:text-sm lg:ml-auto lg:mr-0 lg:pr-0 lg:text-[#0000FF]
+                align-middle lg:text-base lg:ml-auto lg:mr-0 lg:pr-0 lg:text-[#0000FF]
                 pl-[0.625rem] xl:pr-[0.625rem]"
                 >
                   <a className="cursor-pointer">Try Live for free</a>
@@ -104,94 +104,104 @@ export default class Navbar extends Component {
                 <li
                   className="last:mr-0 last:pr-0 lg:mr-0 xl:ml-[0.625rem] xl:mr-0
                 inline-block align-middle xl:relative xl:top-[1px] mx-0
-                px-[0.625rem] inline-block align-middle"
+                px-[0.625rem] inline-block align-middle lg:mx-[0.3125rem]"
                 >
                   <a className="cursor-pointer">Log in or register</a>
                 </li>
               </ul>
             </div>
-            <Disclosure.Panel
-              as="div"
-              className="w-full maxmd:z-20 maxmd:pt-[4.375rem] maxmd:px-[0.9375rem]
-              maxmd:translate-y-[-100%] maxmd:top-0 maxmd:left-0"
+            <Transition
+              enter="transition-transform duration-300 ease-in-out"
+              enterFrom="transform scale-95 opacity-0"
+              enterTo="transform scale-100 opacity-100"
+              leave="transition-transform duration-[0ms] ease-in-out"
+              leaveFrom="transform scale-100 opacity-100"
+              leaveTo="transform scale-95 opacity-0"
             >
-              <ul
-                className="lg:flex lg:content-center lg:align-middle xl:text-xl
-                pl-[16rem] xl:pr-10 lg:text-base lg:mb-5 lg:h-7
-                lg:pb-0 w-full mt-0"
+              <Disclosure.Panel
+                as="div"
+                className="lg:hidden translate-y-0 maxmd:z-20 maxmd:pt-[4.375rem] maxmd:px-[0.9375rem]
+              maxmd:transition-transform maxmd:duration-[350ms] maxmd:ease-in-out maxmd:text-white
+              maxmd:top-0 maxmd:left-0 maxmd:pt-[5rem] maxmd:px-[1.25rem] bg-[#0000FF]
+              w-full"
               >
-                <li
-                  className="first:ml-0 first:pl-0 xl:mx-[0.3125rem] inline-block
+                <ul
+                  className="text-xl leading-normal w-full pr-[1.25rem] font-bold
+                my-0 pl-0 list-none inline-block align-middle"
+                >
+                  <li
+                    className="first:ml-0 first:pl-0 maxmd:block maxmd:mb-[1em] maxmd:ml-0
+                    maxmd:ml-0 inline-block align-middle mx-0 px-[0.625rem]"
+                  >
+                    <button>Live</button>
+                  </li>
+                  <li
+                    className="maxmd:block maxmd:mb-[1em] maxmd:ml-0 maxmd:pl-0 inline-block
                   align-middle mx-0 px-[0.625rem]"
-                >
-                  <button>Live</button>
-                </li>
-                <li
-                  className="first:ml-0 first:pl-0 xl:mx-[0.3125rem] inline-block
-                  align-middle mx-0 px-[0.625rem]"
-                >
-                  <button>Push</button>
-                </li>
-                <li
-                  className="xl:mx-[0.3125rem] inline-block align-middle
-                  mx-0 px-[0.625rem]"
-                >
-                  <button>Shop</button>
-                </li>
-                <li
-                  className="xl:mx-[0.3125rem] inline-block align-middle
-                  mx-0 px-[0.625rem]"
-                >
-                  <button>Link</button>
-                </li>
-                <li
-                  className="xl:mx-[0.3125rem] inline-block align-middle
-                  mx-0 px-[0.625rem]"
-                >
-                  <button>Packs</button>
-                </li>
-                <li
-                  className="xl:mx-[0.3125rem] inline-block align-middle
-                  mx-0 px-[0.625rem]"
-                >
-                  <button>Help</button>
-                </li>
-                <li
-                  className="xl:mx-[0.3125rem] inline-block align-middle
+                  >
+                    <button>Push</button>
+                  </li>
+                  <li
+                    className="maxmd:block maxmd:mb-[1em] maxmd:ml-0 maxmd:pl-0 inline-block
+                    align-middle mx-0 px-[0.625rem]"
+                  >
+                    <button>Shop</button>
+                  </li>
+                  <li
+                    className="maxmd:block maxmd:mb-[1em] maxmd:ml-0 maxmd:pl-0 inline-block
+                    align-middle mx-0 px-[0.625rem]"
+                  >
+                    <button>Link</button>
+                  </li>
+                  <li
+                    className="maxmd:block maxmd:mb-[1em] maxmd:ml-0 maxmd:pl-0 inline-block
+                    align-middle mx-0 px-[0.625rem]"
+                  >
+                    <button>Packs</button>
+                  </li>
+                  <li
+                    className="maxmd:block maxmd:mb-[1em] maxmd:ml-0 maxmd:pl-0 inline-block
+                    align-middle mx-0 px-[0.625rem]"
+                  >
+                    <button>Help</button>
+                  </li>
+                  <li
+                    className="xl:mx-[0.3125rem] inline-block align-middle
                   mx-0 px-[0.625rem] text-[#FF764D]"
-                >
-                  <button
-                    className="inline-block p-0 m-0 text-center no-underline
+                  >
+                    <button
+                      className="inline-block p-0 m-0 text-center no-underline
                     whitespace-nowrap cursor-pointer select-none bg-none bg-transparent
                     border-none apparance-none rounded-none"
-                    aria-expanded="false"
-                    aria-haspopup="true"
-                    aria-controls="more"
-                  >
-                    <span>More</span>
-                    <span>
-                      <span className="ml-2">+</span>
-                    </span>
-                  </button>
-                </li>
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      aria-controls="more"
+                    >
+                      <span>More</span>
+                      <span>
+                        <span className="ml-2">+</span>
+                      </span>
+                    </button>
+                  </li>
 
-                {/* RIGHT SIDE NAVBAR */}
-                <li
-                  className="xl:mr-[0.3125rem] xl:text-xl leading-normal inline-block
+                  {/* RIGHT SIDE NAVBAR */}
+                  <li
+                    className="xl:mr-[0.3125rem] xl:text-xl leading-normal inline-block
                 align-middle lg:text-sm lg:ml-auto lg:mr-0 lg:pr-0 lg:text-[#0000FF]
                 pl-[0.625rem] xl:pr-[0.625rem]"
-                >
-                  <a className="cursor-pointer">Try Live for free</a>
-                </li>
-                <li
-                  className="last:mr-0 last:pr-0 lg:mr-0 xl:ml-[0.625rem] xl:mr-0
+                  >
+                    <a className="cursor-pointer">Try Live for free</a>
+                  </li>
+                  <li
+                    className="last:mr-0 last:pr-0 lg:mr-0 xl:ml-[0.625rem] xl:mr-0
                 inline-block align-middle xl:relative xl:top-[1px] mx-0
                 px-[0.625rem] inline-block align-middle"
-                >
-                  <a className="cursor-pointer">Log in or register</a>
-                </li>
-              </ul>
-            </Disclosure.Panel>
+                  >
+                    <a className="cursor-pointer">Log in or register</a>
+                  </li>
+                </ul>
+              </Disclosure.Panel>
+            </Transition>
           </Disclosure>
 
           {/* <div>stretcher</div> */}
