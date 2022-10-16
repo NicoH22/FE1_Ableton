@@ -112,11 +112,11 @@ export default class Navbar extends Component {
             </div>
             <Transition
               enter="transition-transform duration-300 ease-in-out"
-              enterFrom="transform scale-95 opacity-0"
-              enterTo="transform scale-100 opacity-100"
-              leave="transition-transform duration-[0ms] ease-in-out"
-              leaveFrom="transform scale-100 opacity-100"
-              leaveTo="transform scale-95 opacity-0"
+              enterFrom="transform translate-y-[-100%] opacity-95"
+              enterTo="transform translate-y-0 opacity-100"
+              leave="transition-all duration-[400ms] ease-in"
+              leaveFrom="transform translate-y-0 opacity-100"
+              leaveTo="transform translate-y-[-100%] opacity-95"
             >
               <Disclosure.Panel
                 as="div"
