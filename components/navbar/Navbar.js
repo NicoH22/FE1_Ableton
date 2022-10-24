@@ -120,10 +120,9 @@ export default class Navbar extends Component {
             >
               <Disclosure.Panel
                 as="div"
-                className="lg:hidden translate-y-0 maxmd:z-20 maxmd:pt-[4.375rem] maxmd:px-[0.9375rem]
-              maxmd:transition-transform maxmd:duration-[350ms] maxmd:ease-in-out maxmd:text-white
-              maxmd:top-0 maxmd:left-0 maxmd:pt-[5rem] maxmd:px-[1.25rem] bg-[#0000FF]
-              w-full"
+                className="lg:hidden maxmd:z-20 maxmd:pt-[1rem] maxmd:px-[0.9375rem]
+                maxmd:text-white maxmd:top-0 maxmd:left-0 maxmd:px-[1.25rem]
+                bg-[#0000FF] w-full"
               >
                 <ul
                   className="text-xl leading-normal w-full pr-[1.25rem] font-bold
@@ -166,40 +165,22 @@ export default class Navbar extends Component {
                     <button>Help</button>
                   </li>
                   <li
-                    className="xl:mx-[0.3125rem] inline-block align-middle
-                  mx-0 px-[0.625rem] text-[#FF764D]"
-                  >
-                    <button
-                      className="inline-block p-0 m-0 text-center no-underline
-                    whitespace-nowrap cursor-pointer select-none bg-none bg-transparent
-                    border-none apparance-none rounded-none"
-                      aria-expanded="false"
-                      aria-haspopup="true"
-                      aria-controls="more"
-                    >
-                      <span>More</span>
-                      <span>
-                        <span className="ml-2">+</span>
-                      </span>
-                    </button>
-                  </li>
-
-                  {/* RIGHT SIDE NAVBAR */}
-                  <li
-                    className="xl:mr-[0.3125rem] xl:text-xl leading-normal inline-block
-                align-middle lg:text-sm lg:ml-auto lg:mr-0 lg:pr-0 lg:text-[#0000FF]
-                pl-[0.625rem] xl:pr-[0.625rem]"
+                    className="maxmd:block maxmd:mb-[1em] maxmd:ml-0 maxmd:pl-0 inline-block
+                    align-middle mx-0 px-[0.625rem]"
                   >
                     <a className="cursor-pointer">Try Live for free</a>
                   </li>
                   <li
-                    className="last:mr-0 last:pr-0 lg:mr-0 xl:ml-[0.625rem] xl:mr-0
-                inline-block align-middle xl:relative xl:top-[1px] mx-0
-                px-[0.625rem] inline-block align-middle"
+                    className="maxmd:block maxmd:mb-[1em] maxmd:ml-0 maxmd:pl-0 inline-block
+                    align-middle mx-0 px-[0.625rem] text-[.875rem]"
                   >
                     <a className="cursor-pointer">Log in or register</a>
                   </li>
                 </ul>
+                <div>
+                  <section className="pt-[.625rem]"></section>
+                  <section className="pt-[.625rem]"></section>
+                </div>
               </Disclosure.Panel>
             </Transition>
           </Disclosure>
