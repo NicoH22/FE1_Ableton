@@ -178,7 +178,59 @@ export default class Navbar extends Component {
                   </li>
                 </ul>
                 <div>
-                  <section className="pt-[.625rem]"></section>
+                  <section className="pt-[.625rem]">
+                    <h3 className="my-0 text-[1.25rem] pb-[.625rem] font-bold p-0">
+                      More on Ableton.com:
+                    </h3>
+                    <ul
+                      className="text-[.875rem] my-0 pl-0 no-underline font-bold
+                    inline-block align-middle"
+                    >
+                      <li
+                        className="first:ml-0 first:pl-0 maxmd:block maxmd:mb-[1em] maxmd:ml-0
+                      maxmd:pl-0 inline-block align-middle mx-0 px-[Ø.625rem]"
+                      >
+                        <a>Blog</a>
+                      </li>
+                      <li
+                        className="maxmd:block maxmd:mb-[1em] maxmd:ml-0
+                      maxmd:pl-0 inline-block align-middle mx-0 px-[Ø.625rem]"
+                      >
+                        <a>Ableton for the Classroom</a>
+                      </li>
+                      <li
+                        className="maxmd:block maxmd:mb-[1em] maxmd:ml-0
+                      maxmd:pl-0 inline-block align-middle mx-0 px-[Ø.625rem]"
+                      >
+                        <a>Ableton for Colleges and Universities</a>
+                      </li>
+                      <li
+                        className="maxmd:block maxmd:mb-[1em] maxmd:ml-0
+                      maxmd:pl-0 inline-block align-middle mx-0 px-[Ø.625rem]"
+                      >
+                        <a>Certified Training</a>
+                      </li>
+                      <li
+                        className="maxmd:block maxmd:mb-[1em] maxmd:ml-0
+                      maxmd:pl-0 inline-block align-middle mx-0 px-[Ø.625rem]
+                      text-[#FF764D]"
+                      >
+                        <a>About Ableton</a>
+                      </li>
+                      <li
+                        className="maxmd:block maxmd:mb-[1em] maxmd:ml-0
+                      maxmd:pl-0 inline-block align-middle mx-0 px-[Ø.625rem]"
+                      >
+                        <a>Jobs</a>
+                      </li>
+                      <li
+                        className="maxmd:block maxmd:mb-[1em] maxmd:ml-0
+                      maxmd:pl-0 inline-block align-middle mx-0 px-[Ø.625rem]"
+                      >
+                        <a>Apprenticeships</a>
+                      </li>
+                    </ul>
+                  </section>
                   <section className="pt-[.625rem]"></section>
                 </div>
               </Disclosure.Panel>
