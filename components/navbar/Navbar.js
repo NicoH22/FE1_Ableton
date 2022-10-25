@@ -297,28 +297,16 @@ export default class Navbar extends Component {
             </Transition>
           </Disclosure>
 
-          {/* <div>stretcher</div> */}
+          <div className="relative top-[-1px] h-[1px]"></div>
         </nav>
-        <nav
-          aria-label="Main"
-          className="flex justify-between items-center border-b-2 border-grey"
-        >
-          {/* <Link href="/">
-            <a
-              className="z-30 absolute inline-block align-middle
-              text-3xl font-bold hover:underline ml-10 mr-8 mb-5"
-            >
-              FE1_Ableton
-            </a>
-          </Link> */}
-        </nav>
-        {/* SEPARATOR */}
+        <div className="block h-0 border-t-2 border-solid border-[#eee]"></div>
         <nav>
           <ul
-            className="w-full xl:px-10 xl:text-base xl:h-[4.25rem]
-          xl:py-5 relative block max-w-[100rem] overflow-x-auto
-          overflow-y-hidden lg:p-5 lg:pt-4 list-none my-0 align-middle
-          m-0"
+            className="w-full transition-transform duration-[2500ms] ease-in-out
+            translate-y-0 translate-x-[-50%] relative h-[3.75rem] left-1/2 block
+            max-w-[100rem] pt-[1.0625rem] pb-[.9375rem] px-[1.25rem] overflow-x-auto
+            overflow-y-hidden whitespace-nowrap text-[.875rem] leading-[1.5] font-bold
+            my-0 no-underline align-middle"
           >
             <li
               className="cursor-pointer first:ml-0 first:pl-0
