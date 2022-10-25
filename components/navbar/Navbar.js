@@ -172,7 +172,7 @@ export default class Navbar extends Component {
                   </li>
                   <li
                     className="maxmd:block maxmd:mb-[1em] maxmd:ml-0 maxmd:pl-0 inline-block
-                    align-middle mx-0 px-[0.625rem] text-[.875rem]"
+                    align-middle mx-0 px-[0.625rem] text-[.875rem] font-normal"
                   >
                     <a className="cursor-pointer">Log in or register</a>
                   </li>
@@ -183,7 +183,7 @@ export default class Navbar extends Component {
                       More on Ableton.com:
                     </h3>
                     <ul
-                      className="text-[.875rem] my-0 pl-0 no-underline font-bold
+                      className="text-[.875rem] my-0 pl-0 no-underline font-normal
                     inline-block align-middle"
                     >
                       <li
@@ -231,7 +231,67 @@ export default class Navbar extends Component {
                       </li>
                     </ul>
                   </section>
-                  <section className="pt-[.625rem]"></section>
+                  <section className="pt-[.625rem]">
+                    <h3
+                      className="mx-0 text-[1.25rem] leading-[1.5] pb-[.625rem]
+                    font-bold"
+                    >
+                      More from Ableton:
+                    </h3>
+                    <div className="relative flex flex-nowrap">
+                      <div className="maxmd:pb-[1.25rem] overflow-x-auto">
+                        <ul
+                          className="text-[.875rem] leading-[1.5] mx-0 pl-0
+                        no-underline font-bold align-middle flex"
+                        >
+                          <li className="min-w-[15em] px-[.625rem] list-item">
+                            <a>
+                              <div>
+                                <h4>Loop</h4>
+                                <p className="font-normal">
+                                  Watch Talks, Performances and Features from
+                                  Ableton&apos;s Summit for Music Makers
+                                </p>
+                              </div>
+                            </a>
+                          </li>
+                          <li className="min-w-[15em] px-[.625rem] list-item">
+                            <a>
+                              <div>
+                                <h4>Learning Music</h4>
+                                <p className="font-normal">
+                                  Learn the fundamentals of music making right
+                                  in your browser.
+                                </p>
+                              </div>
+                            </a>
+                          </li>
+                          <li className="min-w-[15em] px-[.625rem] list-item">
+                            <a>
+                              <div>
+                                <h4>Learning Synths</h4>
+                                <p className="font-normal">
+                                  Get started with synthesis using a web-based
+                                  synth and accompanying lessons.
+                                </p>
+                              </div>
+                            </a>
+                          </li>
+                          <li className="min-w-[15em] px-[.625rem] list-item">
+                            <a>
+                              <div>
+                                <h4>Making Music</h4>
+                                <p className="font-normal">
+                                  Some tips from 74 Creative Strategies for
+                                  Electronic Producers.
+                                </p>
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </section>
                 </div>
               </Disclosure.Panel>
             </Transition>
