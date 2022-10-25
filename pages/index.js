@@ -1,7 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import Link from "next/link";
 import Navbar from "../components/navbar/Navbar";
 import MainImg from "../public/images/header.jpg";
 import Img2 from "../public/images/image-6.jpg";
@@ -46,7 +44,7 @@ export default function Home() {
               hardware for music creation and performance. With these products,
               our community of users creates amazing things.
             </h1>
-            <p className="text-[1.25rem]">
+            <p className="text-[1rem]">
               Ableton was founded in 1999 and released the first version of Live
               in 2001. Our products are used by a community of dedicated
               musicians, sound designers, and artists from across the world.
@@ -77,7 +75,7 @@ export default function Home() {
               Making music isn’t easy. It takes time, effort, and learning. But
               when you’re in the flow, it’s incredibly rewarding.
             </h1>
-            <p className="text-[1.25rem]">
+            <p className="text-[1rem]">
               We feel the same way about making Ableton products. The driving
               force behind Ableton is our passion for what we make, and the
               people we make it for.
@@ -100,7 +98,7 @@ export default function Home() {
               between our headquarters in Berlin and our offices in Los Angeles
               and Tokyo.
             </h1>
-            <p className="text-[1.25rem]">
+            <p className="text-[1rem]">
               Most of us are active musicians, producers, and DJs, and many of
               us use Live and Push every day. We come from a wide range of
               cultural and professional backgrounds. Some of us have PhDs, some
@@ -137,7 +135,7 @@ export default function Home() {
               We believe it takes focus to create truly outstanding instruments.
               We only work on a few products and we strive to make them great.
             </h1>
-            <p className="text-[1.25rem]">
+            <p className="text-[1rem]">
               Rather than having a one-size-fits-all process, we try to give our
               people what they need to work their magic and grow. We’ve learned
               that achieving the best results comes from building teams that are
@@ -148,7 +146,7 @@ export default function Home() {
           </AboutText>
 
           {/* IMG-2 */}
-          <div className="mx-28 mb-28">
+          <div className="mx-8vw w-auto mb-8vw">
             <Image src={Img2} alt="Image-6" />
           </div>
 
@@ -158,12 +156,12 @@ export default function Home() {
               We’re passionate about what we do, but we’re equally passionate
               about improving who we are.
             </h1>
-            <p className="text-[1.25rem] mb-[1em]">
+            <p className="text-[1rem] mb-[1em]">
               We work hard to foster an environment where people can grow both
               personally and professionally, and we strive to create a wealth of
               opportunities to learn from and with each other.
             </p>
-            <p className="text-[1.25rem]">
+            <p className="text-[1rem]">
               Alongside an internal training program, employees are actively
               supported in acquiring new knowledge and skills, and coached on
               applying these in their daily work. In addition, staff-organized
@@ -197,7 +195,7 @@ export default function Home() {
               exceptional talent from around the world, we will do everything we
               can to make your transition as easy as possible.
             </h1>
-            <p className="text-[1.25rem]">
+            <p className="text-[1rem]">
               If you&apos;re joining us in Berlin, we&apos;ll help with
               relocation and paperwork. We’ll even provide you with free German
               or English lessons. Plus, working in Germany means you can expect
@@ -213,16 +211,19 @@ export default function Home() {
           <div>
             <div
               className="bg-no-repeat bg-cover bg-[url('../public/images/photo-8.jpeg')]
-            bg-50% w-[41.66667vw] h-[41.66667vw] inline-block align-top relative
-            ml-8vw"
+            bg-50% xl:w-[41.66667vw] xl:h-[41.66667vw] xl:inline-block xl:align-top relative
+            maxlg:h-[50vw] xl:ml-8vw maxlg:mx-8vw"
             ></div>
             <div
-              className="p-8vw w-[41.66667vw] h-[41.66667vw] inline-block
-          align-top mx-0 bg-[#B1C5FF]"
+              className="p-8vw xl:w-[41.66667vw] xl:h-[41.66667vw] xl:inline-block
+          xl:align-top xl:mx-0 !bg-[#B1C5FF] mx-8vw"
             >
               <div className="table w-[100%] h-[100%]">
                 <div className="m-bodyText table-cell align-middle">
-                  <h1 className="mb-0 text-3xl">
+                  <h1
+                    className="mb-[.7em] mt-[2em] mlg:text-[1.875rem] mlg:leading-[1.4] text-[1.25rem]
+                  leading-[1.5]"
+                  >
                     We’re really proud of the work we’ve done so far. But
                     there’s so much more to come. If you’d like to be a part of
                     it, please join us.

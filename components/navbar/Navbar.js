@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Link from "next/link";
-import "./navbar.module.css";
 import { Disclosure, Transition } from "@headlessui/react";
 
 export default class Navbar extends Component {

@@ -22,6 +22,7 @@ module.exports = {
         xs: "576px",
         mlg: "1124px",
         maxmd: { max: "1023px" },
+        maxlg: { max: "1280px" },
       },
     },
     backgroundPosition: {
